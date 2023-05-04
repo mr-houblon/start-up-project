@@ -19,6 +19,8 @@
     max-width: 600px;
     margin: 0 auto;
     padding: 0 20px;
+    padding-left: 7%;
+    text-align: justify;
   }
   
   /* Navigation bar styles */
@@ -46,6 +48,12 @@
     text-transform: uppercase;
     padding: 20px 0;
   }
+
+  li {
+    text-align: justify;
+    padding-left: 4%;
+    padding-right: 4%;
+  }
   
   .nav-links {
     display: flex;
@@ -53,6 +61,16 @@
     list-style: none;
     margin: 0;
     padding: 0;
+  }
+
+  h2 {
+    margin: 10px;
+    margin-bottom: 0%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    flex-wrap: nowrap;
+
   }
   
   .nav-links li {
@@ -86,11 +104,15 @@
     font-size: 48px;
     font-weight: bold;
     margin-bottom: 20px;
+    text-align: justify;
+    padding-left: 7%;
   }
   
   .hero-banner p {
     font-size: 20px;
     margin-bottom: 40px;
+    text-align: justify;
+    padding-left: 7%;
   }
   
   .btn {
@@ -147,6 +169,8 @@
   .card p {
     font-size: 16px;
     margin: 0 20px 20px;
+    text-align: justify;
+    padding-left: 7%;
   }
   
   /* Pricing cards styles */
@@ -186,6 +210,24 @@
     background-color: #ffe6a5;
     display: flex;
     justify-content: center;
+    font-style: italic;
+}
+
+.avis-cards p {
+   margin: 10px;
+   margin-bottom: 0%;
+   padding: 5%;
+   text-align: center;
+   font-style: italic;
+   flex-wrap: nowrap;
+}
+
+.avis-cards h2 {
+  margin: 10px;
+  margin-bottom: 0%;
+  padding: 5%;
+  text-align: center;
+  flex-wrap: nowrap;
 }
 
 .feature-cards {
@@ -200,4 +242,13 @@
     background-color: #ffe6a5;
     display: flex;
     justify-content: center;
+  }
+
+  .testimony {
+    font-size: 16px;
+    margin: 0 20px 20px;
+    text-align: center;
+    padding-left: 7%;
+    font-style: italic;
+
   }
