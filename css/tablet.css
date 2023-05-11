@@ -1,18 +1,17 @@
 @media (width < 768px) {
-    .image-fluid {
-      height: 200px !important;
-    }
-    .hero-text {
-      padding: 20px;
-    }
-    .hero-text-size {
-      font-size: 24px !important;
-    }
-    .card-spacing {
-      margin-bottom: 20px !important;
-    }
-    .card {
-      margin: 0px !important;
-    }
+  .image-fluid {
+    height: 200px !important;
   }
-  
+  .hero-text {
+    padding: 20px;
+  }
+  .hero-text-size {
+    font-size: 24px !important;
+  }
+  .card-spacing {
+    margin-bottom: 20px !important;
+  }
+  .card {
+    margin: 0px !important;
+  }
+}
