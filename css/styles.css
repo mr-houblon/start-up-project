@@ -1,225 +1,199 @@
 /* Reset styles */
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+@import "./tablet.css";
+
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Global styles */
-  body {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #333;
-    content: center;
-    text-align: center;
-  }
-  
-  .container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 0 20px;
-    padding-left: 7%;
-    text-align: justify;
-  }
-  
-  /* Navigation bar styles */
-  nav {
-    background-color:rgb(255, 236, 202);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 999;
-  }
-  
-  .image-fluid {
-    max-width: 100%;
-    height: 300px;
-    padding-left: 40%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
-  .logo {
-    display: block;
-    float: left;
-    font-size: 24px;
-    font-weight: bold;
-    text-transform: uppercase;
-    padding: 20px 0;
-  }
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  content: center;
+  text-align: center;
+}
 
-  li {
-    text-align: justify;
-    padding-left: 4%;
-    padding-right: 4%;
-  }
-  
-  .nav-links {
-    display: flex;
-    float: right;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 20px;
+  padding-left: 7%;
+  text-align: justify;
+}
 
-  h2 {
-    margin: 10px;
-    margin-bottom: 0%;
-    padding-left: 5%;
-    padding-right: 5%;
-    text-align: center;
-    flex-wrap: nowrap;
+/* Navigation bar styles */
+nav {
+  background-color: rgb(255, 236, 202);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
 
-  }
-  
-  .nav-links li {
-    margin-left: 20px;
-  }
-  
-  .nav-links li a {
-    color: #333;
-    text-decoration: none;
-    transition: all 0.3s ease;
-  }
-  
-  .nav-links li a:hover {
-    color: #f00;
-  }
-  
-  /* Hero banner styles */
-  .hero-banner {
-    background-size: cover;
-    background-position: center center;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: rgb(255, 236, 202);
-;
-  }
-  
-  .hero-banner h1 {
-    font-size: 48px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    text-align: justify;
-    padding-left: 7%;
-  }
-  
-  .hero-banner p {
-    font-size: 20px;
-    margin-bottom: 40px;
-    text-align: justify;
-    padding-left: 7%;
-  }
-  
-  .btn {
-    display: inline-block;
-    background-color: #f00;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 4px;
-    text-decoration: none;
-    transition: all 0.3s ease;
-  }
-  
-  .btn:hover {
-    background-color: #fff;
-    color: #f00;
-    border: 1px solid #f00;
-  }
-  
-  /* Feature cards styles */
-  .features {
-    padding: 80px 0;
-  }
-  
-  .features h2 {
-    text-align: center;
-    margin-bottom: 40px;
-  }
-  
-  .card {
-    width: calc(100% / 4 - 5px);
-    margin: 10px;
-    margin-bottom: 0%;
-    padding-bottom: 0%;
-    background-color: #ffaa00;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 4px;
-    overflow: hidden;
-    text-align: center;
-  }
-  
-  .card img {
-    width: 85%;
-    height: 250px;
-    padding: 30px;
-  }
-  
-  .card h3 {
-    font-size: 24px;
-    font-weight: bold;
-    margin: 20px;
-    text-align: center;
-  }
-  
-  .card p {
-    font-size: 16px;
-    margin: 0 20px 20px;
-    text-align: justify;
-    padding-left: 7%;
-  }
-  
-  /* Pricing cards styles */
-  .pricing {
-    background-color: #ff9a9a;
-    padding: 80px 0;
-  }
-  
-  .pricing h2 {
-    text-align: center;
-    margin-bottom: 40px;
-  }
-  
-  .pricing-cards {
-    width: 100%;
-    vertical-align: middle;
-    align-items: end;
-    margin: 10px;
-    margin-bottom: 0%;
-    padding: 5%;
-    border-radius: 4px;
-    text-align: center;
-    background-color: #ffe6a5;
-    display: flex;
-    justify-content: center;
+.image-fluid {
+  height: 350px;
+  margin-left: 40px;
+  object-fit: contain;
+}
+
+.logo {
+  display: block;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 20px 0;
+}
+
+li {
+  text-align: justify;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.nav-links {
+  display: flex;
+  float: right;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  margin: 10px;
+  margin-bottom: 0%;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+  flex-wrap: nowrap;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links li a {
+  color: #333;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #f00;
+}
+
+/* Hero banner styles */
+.hero-banner {
+  background-size: cover;
+  background-position: center center;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgb(255, 236, 202);
+}
+
+.hero-banner h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: justify;
+  padding-left: 7%;
+}
+
+.hero-banner p {
+  font-size: 20px;
+  margin-bottom: 40px;
+  text-align: justify;
+  padding-left: 7%;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #f00;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #f00;
+  border: 1px solid #f00;
+}
+
+.card {
+  width: 100%;
+  margin: 10px;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.card img {
+  height: 250px;
+  object-fit: cover;
+}
+
+.card-text {
+  text-align: left;
+}
+
+/* Pricing cards styles */
+.pricing {
+  padding: 80px 0;
+}
+
+.pricing h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.pricing-cards {
+  width: 100%;
+  vertical-align: middle;
+  align-items: end;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
 }
 
 .avis-cards {
-   width: 100%;
-    vertical-align: middle;
-    align-items: end;
-    margin: 10px;
-    margin-bottom: 0%;
-    padding: 5%;
-    border-radius: 4px;
-    text-align: center;
-    background-color: #ffe6a5;
-    display: flex;
-    justify-content: center;
-    font-style: italic;
+  width: 100%;
+  vertical-align: middle;
+  align-items: end;
+  margin: 10px;
+  margin-bottom: 0%;
+  padding: 5%;
+  border-radius: 4px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-style: italic;
 }
 
 .avis-cards p {
-   margin: 10px;
-   margin-bottom: 0%;
-   padding: 5%;
-   text-align: center;
-   font-style: italic;
-   flex-wrap: nowrap;
+  margin: 10px;
+  margin-bottom: 0%;
+  padding: 5%;
+  text-align: center;
+  font-style: italic;
+  flex-wrap: nowrap;
 }
 
 .avis-cards h2 {
@@ -231,24 +205,33 @@
 }
 
 .feature-cards {
-    width: 100%;
-    vertical-align: middle;
-    align-items: end;
-    margin: 10px;
-    margin-bottom: 0%;
-    padding: 5%;
-    border-radius: 4px;
-    text-align: center;
-    background-color: #ffe6a5;
-    display: flex;
-    justify-content: center;
-  }
+  width: 100%;
+  vertical-align: middle;
+  margin-bottom: 0%;
+  padding: 5%;
+  border-radius: 4px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
 
-  .testimony {
-    font-size: 16px;
-    margin: 0 20px 20px;
-    text-align: center;
-    padding-left: 7%;
-    font-style: italic;
+.testimony {
+  font-size: 16px;
+  margin: 0 20px 20px;
+  text-align: center;
+  padding-left: 7%;
+  font-style: italic;
+}
 
-  }
+.white-space-nowrap {
+  white-space: nowrap;
+}
+
+.card {
+  min-height: 480px;
+}
+
+.gap-10 {
+  gap: 10px;
+}
